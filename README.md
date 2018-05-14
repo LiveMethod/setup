@@ -28,7 +28,7 @@ The default interval is 2 seconds. specify it with `-n` as in `watch -n 10 make`
 
 Install with `pip install when-changed`
 
-Use like `when-changed FILE [FILE ...] -c COMMAND`
+Use like `when-changed FILE/DIR COMMAND` eg `when-changed ./src make`
 
 FILE can be a directory. Watch recursively with -r. Use %f to pass the filename to the command.
 
@@ -38,7 +38,7 @@ FILE can be a directory. Watch recursively with -r. Use %f to pass the filename 
 Install with `brew cask install qlmarkdown`
 
 #### Divvy
-[Divvy](http://mizage.com/divvy/) rearranges windows based on a grid. My default shortcut is `opt+cmd+d` with `cmd+right` and `cmd+left` to send windows to screen halves.
+[Divvy](http://mizage.com/divvy/) rearranges windows based on a grid. My default shortcut is `opt+cmd+d` with `cmd+right` and `cmd+left` to send windows to screen halves. The license is in 1password.
 
 ## The Javascript ones
 
