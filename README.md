@@ -40,8 +40,6 @@ Install with `brew cask install qlmarkdown`
 #### Divvy
 [Divvy](http://mizage.com/divvy/) rearranges windows based on a grid. My default shortcut is `opt+cmd+d` with `cmd+right` and `cmd+left` to send windows to screen halves. The license is in 1password.
 
-## The Javascript ones
-
 #### Node Version Manager
 [NVM](https://github.com/creationix/nvm) allows multiple installs of different node versions on a system, which is helpful when older libs are not forward compatible.
 Install with `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`
@@ -52,3 +50,15 @@ Get a specificed version with `nvm install x.xx.xx` (if you're not picky about t
 
 Use the installed version with `nvm use node`.
 
+## Editor
+
+#### Sublime Package Manager
+Install [Sublime Package Manager](https://packagecontrol.io/installation) to install other things.
+
+Open it with `cmd+shift+p` and "install" to filter to the package browser.
+
+#### Syntax Highlighting
+Less
+Sass
+Babel (for ES6 and JSX)
+Pug
