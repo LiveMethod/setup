@@ -5,11 +5,15 @@ Setting up a new machine is a hassle. For months, I'll go to run something that 
 
 #### Brew
 Install brew to install other things. Computers!
+
 Install with `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 #### Pip
 Install pip to install other things.
-Install with `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py` which will download a file to wherever your terminal's pointing. Run this file with `python get-pip.py`. Remember to delete the script when you're finished.
+
+Install with `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py` which will download a file to wherever your terminal's pointing.
+
+Run this file with `python get-pip.py`. Remember to delete the script when you're finished.
 
 ## The not so big ones
 
@@ -21,12 +25,16 @@ The default interval is 2 seconds. specify it with `-n` as in `watch -n 10 make`
 
 #### When Changed
 [when-changed](https://github.com/joh/when-changed) runs a terminal command when a watched file changes.
+
 Install with `pip install when-changed`
+
 Use like `when-changed FILE [FILE ...] -c COMMAND`
+
 FILE can be a directory. Watch recursively with -r. Use %f to pass the filename to the command.
 
 #### Markdown Quicklook
 [QLMarkdown](https://github.com/toland/qlmarkdown) renders markdown files instead of the filetype logo when previewing a file with spacebar on OSX. Magical.
+
 Install with `brew cask install qlmarkdown`
 
 #### Divvy
