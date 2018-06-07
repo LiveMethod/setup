@@ -50,6 +50,9 @@ Get a specificed version with `nvm install x.xx.xx` (if you're not picky about t
 
 Use the installed version with `nvm use node`.
 
+#### VLC
+[VLC](https://www.videolan.org/vlc/index.html) will play anything you're brave enough to feed it.
+
 ## Editor
 
 #### Sublime Package Manager
@@ -62,3 +65,9 @@ Less
 Sass
 Babel (for ES6 and JSX)
 Pug
+
+## System Settings
+
+#### Allow apps from anywhere
+The security settings panel hides the option to allow app installs from "anywhere". The feature still exists under the hood, and prevents having to open settings to authorize every new app.
+`sudo spctl --master-disable`
