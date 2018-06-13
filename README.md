@@ -71,3 +71,8 @@ Pug
 #### Allow apps from anywhere
 The security settings panel hides the option to allow app installs from "anywhere". The feature still exists under the hood, and prevents having to open settings to authorize every new app.
 `sudo spctl --master-disable`
+
+#### Show hidden files
+
+`defaults write com.apple.finder AppleShowAllFiles YES` from anywhere
+relaunch finder (opt/alt + right click the logo or from the force quit menu)
