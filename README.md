@@ -28,7 +28,7 @@ The default interval is 2 seconds. specify it with `-n` as in `watch -n 10 make`
 
 Install with `pip install when-changed`
 
-Use like `when-changed FILE/DIR COMMAND` eg `when-changed ./src make`
+Use like `when-changed [flags] [FILE/DIR] [COMMAND]` eg `when-changed -r ./src make`
 
 FILE can be a directory. Watch recursively with -r. Use %f to pass the filename to the command.
 
