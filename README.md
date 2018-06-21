@@ -76,3 +76,10 @@ The security settings panel hides the option to allow app installs from "anywher
 
 `defaults write com.apple.finder AppleShowAllFiles YES` from anywhere
 relaunch finder (opt/alt + right click the logo or from the force quit menu)
+
+## Chrome Extensions
+
+#### Screenshots
+[Full Page Screen Capture](https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?hl=en-US)
+[uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en-US)
+[AdBlock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en-US)
