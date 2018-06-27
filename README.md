@@ -60,6 +60,10 @@ Install [Sublime Package Manager](https://packagecontrol.io/installation) to ins
 
 Open it with `cmd+shift+p` and "install" to filter to the package browser.
 
+#### Disable Update Checks
+
+`command + ,` to bring up settings. In user settings json, add flag `"update_check": false`
+
 #### Syntax Highlighting
 Less
 Sass
