@@ -81,6 +81,19 @@ The security settings panel hides the option to allow app installs from "anywher
 `defaults write com.apple.finder AppleShowAllFiles YES` from anywhere
 relaunch finder (opt/alt + right click the logo or from the force quit menu)
 
+#### Config github.com and github enterprise on the same machine
+Config the machine for one env (eg git.corp.bigCo) that will be used by default.
+
+In `~/.ssh/config` add the following
+
+`
+Host github.com
+  HostName {NON-DEFAULT DOMAIN (eg github.com if git.corp.bigCo is the default)}
+  PreferredAuthentications publickey
+  IdentityFile {PATH TO ALTERNATIVE KEY}
+  IdentitiesOnly yes
+`
+
 ## Chrome Extensions
 
 #### Screenshots
