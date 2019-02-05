@@ -94,6 +94,13 @@ Host github.com
   IdentitiesOnly yes
 `
 
+#### Disable Dock Icon Bounce
+
+In terminal
+`defaults write com.apple.dock no-bouncing -bool TRUE` to disable bounce
+`killall Dock` to kill (will relaunch automatically)
+Same command set false to reverse.
+
 ## Chrome Extensions
 
 #### Screenshots
