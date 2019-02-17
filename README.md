@@ -66,9 +66,12 @@ Open it with `cmd+shift+p` and "install" to filter to the package browser.
 
 #### Syntax Highlighting
 Less
-Sass
+Sass (the Sass package has an SCSS mode that is good. The standalone SCSS package [textmate] does not highlight properly)
 Babel (for ES6 and JSX)
 Pug
+
+#### Editor config
+EditorConfig
 
 ## System Settings
 
