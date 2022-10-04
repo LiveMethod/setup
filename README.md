@@ -4,9 +4,12 @@ Setting up a new machine is a hassle. For months, I'll go to run something that 
 ## The big ones
 
 #### Brew
-Install brew to install other things. Computers!
+Install brew to install other things. Brew offers the ability to get xcode command line tools during install. Do so, when available.
 
 Install with `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+#### Xcode Command Line Tools
+If [Command Line Tools](https://mac.install.guide/commandlinetools/4.html) didn't come with brew, `xcode-select --install`.  Verify installation with `xcode-select -p`, which should return something like `/Library/Developer/CommandLineTools`.
 
 #### Pip
 Install pip to install other things.
