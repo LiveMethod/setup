@@ -42,7 +42,7 @@ Install with `brew install --cask qlmarkdown`
 
 #### Node Version Manager
 [NVM](https://github.com/creationix/nvm) allows multiple installs of different node versions on a system, which is helpful when older libs are not forward compatible.
-Install with `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`
+Install with `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
 
 Get the latest node with `nvm install node`.
 
