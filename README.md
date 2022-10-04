@@ -50,6 +50,9 @@ Get a specificed version with `nvm install x.xx.xx` (if you're not picky about t
 
 Use the installed version with `nvm use node`.
 
+#### VirtualEnv
+[VirtualEnv](https://virtualenv.pypa.io/en/latest/) keeps python environments separate, contained, transferable, etc.
+
 #### VLC
 [VLC](https://www.videolan.org/vlc/index.html) will play anything you're brave enough to feed it.
 
