@@ -52,6 +52,7 @@ Use the installed version with `nvm use node`.
 
 #### VirtualEnv
 [VirtualEnv](https://virtualenv.pypa.io/en/latest/) keeps python environments separate, contained, transferable, etc.
+[VirtualEnvWrapper](https://pypi.org/project/virtualenvwrapper/) is the set of utils that makes dealing with these easier.
 
 #### VLC
 [VLC](https://www.videolan.org/vlc/index.html) will play anything you're brave enough to feed it.
