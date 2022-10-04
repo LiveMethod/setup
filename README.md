@@ -44,11 +44,17 @@ Install with `brew install --cask qlmarkdown`
 [NVM](https://github.com/creationix/nvm) allows multiple installs of different node versions on a system, which is helpful when older libs are not forward compatible.
 Install with `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
 
+#### Node itself
 Get the latest node with `nvm install node`.
 
-Get a specificed version with `nvm install x.xx.xx` (if you're not picky about the exact version, you can just specify a major version like eg 7)
+Get a specificed version with `nvm install x.xx.xx` (if you're not picky about the exact version, you can just specify a major version like `nvm install 18`)
 
 Use the installed version with `nvm use node`.
+
+#### Yarn
+Yarn is included with node, but corepack may need to be installed.
+With node installed, `corepack enable`. Verify that `which yarn` points to something reasonable like `/Users/me/.nvm/versions/node/v18.10.0/bin/yarn`
+
 
 #### VirtualEnv
 [VirtualEnv](https://virtualenv.pypa.io/en/latest/) keeps python environments separate, contained, transferable, etc.
