@@ -35,7 +35,7 @@ FILE can be a directory. Watch recursively with -r. Use %f to pass the filename 
 #### Markdown Quicklook
 [QLMarkdown](https://github.com/toland/qlmarkdown) renders markdown files instead of the filetype logo when previewing a file with spacebar on OSX. Magical.
 
-Install with `brew cask install qlmarkdown`
+Install with `brew install --cask qlmarkdown`
 
 #### Divvy
 [Divvy](http://mizage.com/divvy/) rearranges windows based on a grid. My default shortcut is `opt+cmd+d` with `cmd+right` and `cmd+left` to send windows to screen halves. The license is in 1password.
