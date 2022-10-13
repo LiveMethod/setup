@@ -83,8 +83,10 @@ Sass (the Sass package has an SCSS mode that is good. The standalone SCSS packag
 Babel (for ES6 and JSX)
 Pug
 
-#### Editor config
-EditorConfig
+#### VSCode
+`cmd + shift + p` and search `shell` to install the `code` shell command.
+
+Cauting: telemetry is on by default, be sure to turn it off, as well as auto updates.
 
 ## System Settings
 
